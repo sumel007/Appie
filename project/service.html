@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Appie</title>
+    <style>
+        .bg-color-1 {
+            background-color: #eef1f6;
+        }
+
+        .nav_bar ul li ul {
+            position: absolute;
+            display: none;
+        }
+
+        .nav_bar ul li:hover ul {
+            display: block;
+            position: absolute;
+            margin-top: 0px;
+            display: block;
+            align-items: center;
+            margin: none;
+            margin-left: -1px;
+            margin-top: 1px;
+        }
+
+        .nav_bar ul li ul li {
+            display: block;
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+            height: fit-content;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header
+        style="background-image: url(./images/service-banner.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+        <!-- NAV BAR  -->
+        <div class="">
+            <div class="lg:container lg:mx-auto md:px-28 px-4 py-4 flex items-center justify-between ">
+                <div class="w-7/12 flex items-center justify-between">
+                    <div class="">
+                        <img src="images/index1.png" alt="">
+                    </div>
+                    <div class="nav_bar">
+                        <ul class=" flex space-x-4">
+                            <li>
+                                <a class="md:p-2 p-1 flex items-center text-white " href="home.html">Home
+                                </a>
+                            </li>
+                            <li>
+                                <a class="md:p-2 p-1 flex items-center text-white" href="service.html">Service
+                                </a>
+                            </li>
+                            <li>
+                                <a class="md:p-2 p-1 flex items-center text-white" href="">pages
+                                    <svg class="w-4 h-4 mt-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M19 9l-7 7-7-7">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <ul class=" rounded-md px-4 py-4 shadow-xl bg-white">
+                                    <li class="">
+                                        <a class="md:p-2 p-1 flex items-center" href="aboutus.html"> About us
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class="md:p-2 p-1 flex items-center" href="error.html">Error                             
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="md:p-2 p-1 flex items-center text-white" href="news.html">News
+                                </a>
+                            </li>
+                            <li>
+                                <a class="md:p-2 p-1 flex items-center text-white" href="contact.html">Contact
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="flex items-center">
+                    <a class="md:p-2 p-1 flex items-center md:text-sm text-xs text-white" href="">
+                        <svg class="w-4 h-4 " fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                        </svg>Login
+                    </a>
+                    <button
+                        class="md:flex hidden font-normal text-xs border border-white md:rounded-md rounded lg:px-6 md:px-4 px-2 lg:py-3 md:py-2 py-1 text-white hover:bg-white hover:text-blue-600 ml-4 text-center ">
+                        Get Started
+                    </button>
+                </div>
+                <div class="lg:hidden flex md:pl-8 pl-4">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+        <!-- BANNER  -->
+        <div class="md:w-1/2 w-full">
+            <div class="container mx-auto px-4">
+                <div class="flex items-center flex-wrap -mx-4 md:px-28 px-4">
+                    <div class="md:my-48 my-32 space-y-4">
+                        <h1 class="text-sm text-gray-300">
+                            Fast Development
+                        </h1>
+                        <h1 class="md:text-4xl text-2xl text-gray-100 font-bold">
+                            Simple but effective,
+                            effortless yet powerful.
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="bg-white">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-wrap -mx-4 md:px-28 px-4 py-24">
+                    <div class="md:flex md:grid-cols-1 md:space-x-16">
+                        <div class="col-span-1 space-y-4">
+                            <div class="space-y-4 bg-white pl-4 pr-16 py-8 rounded-md shadow-xl">
+                                <div class="flex px-4 items-center space-x-4">
+                                    <i class="fas fa-home text-blue-500"></i>
+                                    <h1 class="text-sm text-gray-500">
+                                        Fast Development
+                                    </h1>
+                                </div>
+                                <div class="flex px-4 items-center space-x-4">
+                                    <i class="fas fa-tag text-blue-500 "></i>
+                                    <h1 class="text-sm text-gray-500">
+                                        App, UX
+                                    </h1>
+    
+                                </div>
+                                <div class="flex px-4 items-center space-x-3">
+                                    <i class="fas fa-user-friends text-blue-500 "></i>
+                                    <h1 class="text-sm text-gray-500">
+                                        20-30 Employees
+                                    </h1>
+                                </div>
+                                <div class="flex px-4 items-center space-x-5">
+                                    <i class="fas fa-bookmark text-blue-500 "></i>
+                                    <h1 class="text-sm text-gray-500">
+                                        Appie Template
+                                    </h1>
+                                </div>
+                                <div class="flex px-4 items-center space-x-4">
+                                    <i class="fas fa-globe text-blue-500 "></i>
+                                    <h1 class="text-sm text-gray-500">
+                                        quomodosoft.com/appie
+                                    </h1>
+                                </div>
+    
+                            </div>
+                            <div class="space-y-4 bg-white pl-4 pr-16 py-3 rounded-md shadow-xl">
+                                <div class="flex px-4 items-center space-x-4">
+                                    <i class="fas fa-globe text-blue-500 "></i>
+                                    <h1 class="text-sm text-gray-500">
+                                        Download docs
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="space-y-4 bg-white pl-4 pr-16 py-3 rounded-md shadow-xl">
+                                <div class="flex px-4 items-center space-x-4">
+                                    <i class="fas fa-file-pdf text-blue-500 "></i>
+                                    <h1 class="text-sm text-gray-500">
+                                        Characteristics
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-2 md:px-4 space-y-5 mt-12">
+                            <h1 class="text-3xl text-gray-900 font-bold">
+                                What we're Building
+                            </h1>
+                            <p class="text-sm text-gray-600 font-light">
+                                Tomfoolery wind up blag me old mucker chap super ruddy chancer bobby, vagabond it's your round cuppa cheesed off blower nice one at public school, Why cockup knackered pear shaped amongst spiffing good time he nicked it.
+                            </p>
+                            <h1 class="text-xl text-gray-900 font-mormal">
+                                He lost his bottle mufty spend a penny cheeky at public school daft get stuffed mate don't get shirty.
+                            </h1>
+                            <p class="text-sm text-gray-600 font-light">
+                                My good sir cup of char no biggie knees up happy days absolutely bladdered don't get shirty with me chimney pot James Bond he lost his bottle me old mucker, bobby nice one cack codswallop what a load of rubbish Jeffrey barmy blower tomfoolery, crikey only a quid at public school mufty tosser up the duff say Richard I don't want no agro. Owt to do with me barney quaint jolly good off his nut vagabond pardon you gutted mate the little rotter excuse my French, the bee's knees don't get shirty with me he nicked it give us a bell zonked lavatory Charles gosh, Eaton the BBC is victoria sponge a William bog what a load of rubbish. Smashing only a quid cockup he lost his bottle bugger Jeffrey mufty, starkers blatant zonked easy peasy brolly car boot, blimey at public school cheeky bugger you mug david. Tomfoolery a load of old tosh Queen's English lemon squeezy old hunky-dory mush chap give us a bell bloke, chancer knackered cheesed off buggered tinkety tonk old fruit car boot only a quid spiffing good time chinwag, he lost his bottle pukka gutted mate naff horse play cup of tea baking cakes a blinding shot. bobby the wireless matie boy show.
+                            </p>
+                        
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container mx-auto md:px-28 px-4 pb-12 mb-10">
+                <div class="md:flex md:px-12" style="background-image: url(./images/project-bg.a64606ad.jpg); border-radius: 0.375rem; background-repeat: no-repeat;
+                background-attachment: scroll;
+                background-size: 100% 100%;">
+                    <div class="md:w-1/2 py-16 grid items-stretch px-4 space-y-4">
+                        <h1 class="text-white md:text-5xl text-3xl font-bold">Start your project with appie.</h1>
+                        <h1 class="text-gray-200 md:text-sm text-xs">We will email you only about this product.</h1>
+                        <div class=" md:space-x-4 space-y-4">
+                            <input class="rounded-md px-6 py-3" type="email" placeholder="Your Email">
+                            <button class="px-6 py-3 rounded-md bg-gray-900 text-white text-md">Subscribe</button>
+                        </div>
+
+                    </div>
+                    <div class="md:w-1/2 md:flex hidden justify-end items-end pt-12">
+                        <img class="h-80" src="./images/project-thumb.cb22eef8.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="" style="background-color: #eef1f6;">
+            <div class="container mx-auto md:px-24 px-4 py-14">
+                <div class="md:flex border-b-2">
+                    <div class="md:w-2/6 flex md:justify-center">
+                        <div class="px-4 space-y-4 py-4 grid md:justify-items-start justify-items-center">
+                            <img src="./images/index.png" alt="">
+                            <h1 class="text-sm text-gray-600 md:pr-14 md:text-left text-center">Appie WordPress is theme
+                                is the last theme you
+                                will
+                                ever have.</h1>
+                            <button
+                                class="font-medium py-3 text-sm text-gray-900 hover:text-blue-600 flex mr-2 items-center duration-500">
+                                Read More<i class="fas fa-arrow-right px-2"></i>
+                            </button>
+                            <div class="flex space-x-2">
+                                <i class="fab fa-facebook-f py-2 px-3 bg-white rounded"></i>
+                                <i class="fab fa-twitter py-2 px-3 bg-white rounded"></i>
+                                <i class="fab fa-pinterest-p py-2 px-3 bg-white rounded"></i>
+                                <i class="fab fa-linkedin-in py-2 px-3 bg-white rounded"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/6">
+                        <div class="grid justify-items-center">
+                            <ul>
+                                <li class="text-xl font-bold text-gray-900 py-4"><a href="">Company</a></li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">About Us</a></li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">Service</a></li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">Case Studies</a></li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">Blog</a></li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="md:w-1/6">
+                        <div class="w-full grid justify-items-center">
+                            <ul>
+                                <li class="text-xl font-bold text-gray-900 py-4"><a href="">Support</a></li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">Community</a></li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">Resources</a></li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">Faqs</a></li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">Privacy Policy</a>
+                                </li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="md:w-2/6 grid md:justify-items-end justify-items-center">
+                        <div class="py-4 space-y-4">
+                            <div class="">
+                                <h1 class="text-xl font-bold text-gray-900 md:px-2 px-0">Get In Touch</h1>
+                            </div>
+                            <div class="">
+                                <div class="flex items-center text-right">
+                                    <i class="far fa-envelope text-blue-500 px-2"></i>
+                                    <h1 class="text-sm font-normal text-gray-500 py-1">support@appie.com</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <i class="fas fa-phone text-blue-500 px-2"></i>
+                                    <h1 class="text-sm font-normal text-gray-500 py-1">+(642) 342 762 44</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <i class="fas fa-map-marker-alt text-blue-500 px-2"></i>
+                                    <h1 class="text-sm font-normal text-gray-500 py-1">442 Belle Terre St Floor 7,
+                                        San
+                                        <br> Francisco, AV 4206
+                                    </h1>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="pt-8 md:flex justify-between text-center">
+                    <div class="md:flex md:space-x-4 grid justify-items-center">
+                        <button
+                            class="font-medium bg-white  rounded-md px-6 py-2 text-sm text-gray-800 hover:bg-gray-100 flex mr-2 items-center "><i
+                                class="fab fa-apple p-2"></i>
+                            Download for ios
+                        </button>
+                        <button
+                            class="md:mt-0 mt-4 font-medium md:border-0 border rounded-md px-6 py-2 text-sm text-gray-800 hover:bg-white flex items-center">
+                            <i class="fab fa-google-play p-2"></i>
+                            Download for Android
+                        </button>
+                    </div>
+                    <div class="">
+                        <h1 class="text-sm text-gray-600 md:py-0 py-4">
+                            Copyright © 2021 Appie. All rights reserved.
+                        </h1>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

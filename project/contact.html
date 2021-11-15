@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Appie</title>
+    <style>
+        .bg-color-1 {
+            background-color: #eef1f6;
+        }
+
+        .nav_bar ul li ul {
+            position: absolute;
+            display: none;
+        }
+
+        .nav_bar ul li:hover ul {
+            display: block;
+            position: absolute;
+            margin-top: 0px;
+            display: block;
+            align-items: center;
+            margin: none;
+            margin-left: -1px;
+            margin-top: 1px;
+        }
+
+        .nav_bar ul li ul li {
+            display: block;
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+            height: fit-content;
+
+        }
+        .twitter{
+            background-color: #00aced;
+        }
+        .linkedin {
+            background-color: #007bb6;
+        }
+    </style>
+</head>
+
+<body>
+    <header
+        style="background-image: url(./images/service-banner.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+        <!-- NAV BAR  -->
+        <div class="">
+            <div class="container mx-auto lg:px-28 px-4 py-4 flex items-center justify-between ">
+                <div class="lg:w-7/12 flex items-center justify-between">
+                    <div class="w-min-30">
+                        <img src="images/index1.png" alt="">
+                    </div>
+                    <div class="lg:block hidden nav_bar">
+                        <ul class="flex space-x-4">
+                            <li>
+                                <a class="md:p-2 p-1 flex items-center text-white " href="home.html">Home
+                                </a>
+                            </li>
+                            <li>
+                                <a class="md:p-2 p-1 flex items-center text-white" href="service.html">Service
+                                </a>
+                            </li>
+                            <li>
+                                <a class="md:p-2 p-1 flex items-center text-white" href="">pages
+                                    <svg class="w-4 h-4 mt-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M19 9l-7 7-7-7">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <ul class=" rounded-md px-4 py-4 shadow-xl bg-white">
+                                    <li class="">
+                                        <a class="md:p-2 p-1 flex items-center" href="aboutus.html"> About us
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class="md:p-2 p-1 flex items-center" href="error.html">Error
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="md:p-2 p-1 flex items-center text-white" href="news.html">News
+                                </a>
+                            </li>
+                            <li>
+                                <a class="md:p-2 p-1 flex items-center text-white" href="contact.html">Contact
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="flex items-center">
+                    <a class="md:p-2 p-1 flex items-center md:text-sm text-xs text-white" href="">
+                        <svg class="w-4 h-4 " fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                        </svg>Login
+                    </a>
+                    <button
+                        class="md:flex hidden font-normal text-xs border border-white md:rounded-md rounded lg:px-6 md:px-4 px-2 lg:py-3 md:py-2 py-1 text-white hover:bg-white hover:text-blue-600 ml-4 text-center ">
+                        Get Started
+                    </button>
+                </div>
+                <div class="lg:hidden flex md:pl-8 pl-4">
+                    <i class="fas fa-bars text-white"></i>
+                </div>
+            </div>
+        </div>
+        <!-- BANNER  -->
+        <div class="">
+            <div class="container mx-auto lg:px-28 px-4 py-32">
+                <div class="flex flex-wrap -mx-4">
+                    <div class="space-y-5 px-4">
+                        <h1 class="text-4xl text-white font-bold">
+                            Blog Grid
+                        </h1>
+                        <h1 class="text-gray-300 text-base ">
+                            <a href="">Home</a> / Blog Grid
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="bg-gray-100">
+            <div class="container mx-auto lg:px-28 px-4">
+                <div class="flex flex-wrap -mx-4 py-20">
+                    <div class="md:w-1/3 w-full px-4">
+                        <div class=" space-y-2 py-4 border-b">
+                            <h1 class="text-3xl text-gray-800 font-bold">
+                                Get in touch
+                            </h1>
+                            <h1 class="text-sm text-gray-500 font-light">
+                                Looking for help? Fill the form and start a new adventure.
+                            </h1>
+                        </div> 
+                        <div class="py-6 space-y-6">
+                            <div class=" space-y-3">
+                                <h1 class="text-sm text-gray-800 font-bold">
+                                    Headquaters
+                                </h1>
+                                <div class="flex space-x-2">
+                                    <i class="fa fa-home text-blue-500 py-1" aria-hidden="true"></i>
+                                <h1 class="text-gray-500 text-sm font-light">  744 New York Ave, Brooklyn, Kings,
+                                    New York 10224
+                                </h1>
+                                </div>
+                            </div>
+                            
+                            <div class=" space-y-3">
+                                <h1 class="text-sm text-gray-800 font-bold">
+                                    Phone
+                                </h1>
+                                <div class="flex space-x-2">
+                                    <i class="fa fa-phone text-blue-500 py-1" aria-hidden="true"></i>
+                                <h1 class="text-gray-500 text-sm font-light">(+642) 245 356 432 <br>(+420) 336 476 328 
+                                </h1>
+                                </div>
+                            </div>
+                            <div class=" space-y-3">
+                                <h1 class="text-sm text-gray-800 font-bold">
+                                    Support
+                                </h1>
+                                <div class="flex space-x-2">
+                                    <i class="fa fa-envelope text-blue-500 py-1" aria-hidden="true"></i>
+                                <h1 class="text-gray-500 text-sm font-light">bisy@support.com <br>help@education.com 
+                                </h1>
+                                </div>
+                            </div>
+                            <div class=" space-y-4">
+                                <h1 class="text-sm text-gray-800 font-bold">
+                                    Follow Us
+                                </h1>
+                                <div class="flex space-x-1">
+                                    <i class="fab fa-facebook text-white rounded-full text-xs py-4 px-4 bg-indigo-500"></i>
+                                    <i class="fab fa-twitter text-white rounded-full text-xs p-4 twitter"></i>
+                                    <i class="fab fa-youtube text-white rounded-full text-xs p-4 bg-red-600"></i>
+                                    <i class="fab fa-linkedin-in text-white rounded-full text-xs p-4 linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-2/3 w-full px-4 py-6 ">
+                        <div class="bg-white rounded-md px-10 py-6">
+                            <div class=" space-y-2 py-4">
+                            <h1 class="text-2xl text-gray-800 font-bold">
+                                Let’s Connect
+                            </h1>
+                            <h1 class="text-sm text-gray-500 font-light">
+                                Integer at lorem eget diam facilisis lacinia ac id massa.
+                            </h1>
+                        </div>
+                        <div class="space-y-5 py-6">
+                            <div class="">
+                                <div class="w-full md:flex md:space-x-6 md:space-y-0 space-y-4">
+                                    <input class="md:w-1/2 w-full bg-gray-100 rounded px-6 py-4 text-sm font-light outline-none focus:bg-white focus:shadow-lg" type="text" placeholder="First Name">
+                                    <input class="md:w-1/2 w-full bg-gray-100 rounded px-6 py-4 text-sm font-light outline-none focus:bg-white focus:shadow-lg" type="text" placeholder="Last Name">
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="w-full md:flex md:space-x-6 md:space-y-0 space-y-4">
+                                    <input class="md:w-1/2 w-full bg-gray-100 rounded px-6 py-4 text-sm font-light outline-none focus:bg-white focus:shadow-lg" type="email" placeholder="Email Address">
+                                    <input class="md;w-1/2 w-full bg-gray-100 rounded px-6 py-4 text-sm font-light outline-none focus:bg-white focus:shadow-lg" type="number" placeholder="Phone Number">
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="w-full flex md:space-x-6 md:space-y-0 space-y-4">
+                                    <input class="w-full bg-gray-100 rounded px-6 py-4 text-sm font-light outline-none focus:bg-white focus:shadow-lg" type="text" placeholder="Subject">
+                                    
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="w-full ">
+                                    <textarea class="w-full bg-gray-100 rounded px-6 py-4 text-sm font-light outline-none focus:bg-white focus:shadow-lg" name="" id="" cols="30" rows="8" placeholder="How can we help You?"></textarea>
+                                    
+                                </div>
+                            </div>
+                            <div class="md:flex md:space-y-0 space-y-2">
+                                <div class="md:w-1/2 md:flex md:space-x-2 md:space-y-0 space-y-2 items-center">
+                                    <input class="" type="checkbox">
+                                    <a href=""class="text-sm text-gray-500 font-light">
+                                        I agree to the <span class="text-blue-500 hover:text-gray-500">Terms & Conditions</span> 
+                                    </a>
+
+                                </div>
+                                <div class="md:w-1/2 ">
+                                    <button class="bg-blue-500 rounded text-xs text-white font-bold px-8 py-3">
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        </div>
+                         
+                    </div>
+                </div>
+            </div>
+            <div class="w-full">
+                <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.827281112008!2d-73.94964138496786!3d40.65573757933793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b660705b751%3A0xca16c81a5502c10e!2s744%20New%20York%20Ave%2C%20Brooklyn%2C%20NY%2011203%2C%20USA!5e0!3m2!1sen!2sbd!4v1636441146572!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="" style="background-color: #eef1f6;">
+            <div class="container mx-auto md:px-24 px-4 py-14">
+                <div class="md:flex border-b-2">
+                    <div class="md:w-2/6 flex justify-center">
+                        <div class="px-4 space-y-4 py-4 grid md:justify-items-start justify-items-center">
+                            <img src="./images/index.png" alt="">
+                            <h1 class="text-sm text-gray-600 md:pr-14 md:text-left text-center">Appie WordPress is theme
+                                is the last theme you
+                                will
+                                ever have.</h1>
+                            <button
+                                class="font-medium py-3 text-sm text-gray-900 hover:text-blue-600 flex mr-2 items-center duration-500">
+                                Read More<i class="fas fa-arrow-right px-2"></i>
+                            </button>
+                            <div class="flex space-x-2">
+                                <i class="fab fa-facebook-f py-2 px-3 bg-white rounded"></i>
+                                <i class="fab fa-twitter py-2 px-3 bg-white rounded"></i>
+                                <i class="fab fa-pinterest-p py-2 px-3 bg-white rounded"></i>
+                                <i class="fab fa-linkedin-in py-2 px-3 bg-white rounded"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/6">
+                        <div class="grid justify-items-center">
+                            <ul>
+                                <li class="text-xl font-bold text-gray-900 py-4"><a href="">Company</a></li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">About Us</a></li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">Service</a></li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">Case Studies</a></li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">Blog</a></li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="md:w-1/6">
+                        <div class="w-full grid justify-items-center">
+                            <ul>
+                                <li class="text-xl font-bold text-gray-900 py-4"><a href="">Support</a></li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">Community</a></li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">Resources</a></li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">Faqs</a></li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">Privacy Policy</a>
+                                </li>
+                                <li class="text-sm font-normal text-gray-500 py-1"><a href="">Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="md:w-2/6 grid md:justify-items-end justify-items-center">
+                        <div class="py-4 space-y-4 grid md:justify-items-start justify-items-center">
+                            <div class="">
+                                <h1 class="text-xl font-bold text-gray-900 md:px-2 px-0">Get In Touch</h1>
+                            </div>
+                            <div class="grid md:justify-items-start justify-items-center">
+                                <div class="flex items-center text-right">
+                                    <i class="far fa-envelope text-blue-500 px-2"></i>
+                                    <h1 class="text-sm font-normal text-gray-500 py-1">support@appie.com</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <i class="fas fa-phone text-blue-500 px-2"></i>
+                                    <h1 class="text-sm font-normal text-gray-500 py-1">+(642) 342 762 44</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <i class="fas fa-map-marker-alt text-blue-500 px-2"></i>
+                                    <h1 class="text-sm font-normal text-gray-500 py-1">442 Belle Terre St Floor 7,
+                                        San
+                                        <br> Francisco, AV 4206
+                                    </h1>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="pt-8 md:flex justify-between text-center">
+                    <div class="md:flex md:space-x-4 grid justify-items-center">
+                        <button
+                            class="font-medium bg-white  rounded-md px-6 py-2 text-sm text-gray-800 hover:bg-gray-100 flex mr-2 items-center "><i
+                                class="fab fa-apple p-2"></i>
+                            Download for ios
+                        </button>
+                        <button
+                            class="md:mt-0 mt-4 font-medium md:border-0 border rounded-md px-6 py-2 text-sm text-gray-800 hover:bg-white flex items-center">
+                            <i class="fab fa-google-play p-2"></i>
+                            Download for Android
+                        </button>
+                    </div>
+                    <div class="">
+                        <h1 class="text-sm text-gray-600 md:py-0 py-4">
+                            Copyright © 2021 Appie. All rights reserved.
+                        </h1>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
